@@ -1,0 +1,25 @@
+body{
+  font-family: sans-serif;
+}
+.GenPageCard{
+  width: 50%;
+  margin: 0 auto;
+  padding:10px;
+  background-color: aqua;
+
+}
+.GenPageCard-nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom:1px solid black;
+}
+
+.GenPageCard-description__text{
+  padding-left: 30px;
+}
+
+.GenPageCard-description__otherInfo_info{
+  padding-left: 30px;
+}

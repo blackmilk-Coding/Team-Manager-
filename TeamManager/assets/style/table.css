@@ -1,0 +1,49 @@
+.bd-table{
+  /*Таблица*/
+  font-size: 20px;
+
+  table-layout: fixed;
+  border-collapse: collapse;
+  border: 2px solid black;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 20%;
+  text-align: center;
+}
+
+th,td{
+  border: 2px solid grey;
+  padding:10px;
+  overflow-wrap:break-word;
+  word-break: break-word;
+}
+
+
+
+.bd-table-head{
+  /*Шапка таблицы*/
+}
+
+.bd-table-head__item{
+  /*Элемент таблицы*/
+}
+
+.bd-table-body{
+  /*Тело таблицы*/
+}
+
+.bd-table-body__item{
+  /*Элемент тела таблицы*/
+
+}
+
+
+.bd-table-body__item__text{
+  height: 20px;
+  overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 4;
+	-webkit-box-orient: vertical;
+  
+}

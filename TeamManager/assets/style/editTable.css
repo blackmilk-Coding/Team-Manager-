@@ -1,0 +1,43 @@
+.message-form{
+  font-family: sans-serif;
+  font-weight: normal;
+  letter-spacing: 1px;
+  font-size: 20px;
+  margin: 60px;
+}
+
+.message-form_warning{
+  color: rgb(143, 31, 31);
+}
+.EditTable-form{
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.EditTable-form__input{
+  width: 60%;
+  padding: 10px;
+
+}
+
+.EditTable-form__label{
+  font-family: sans-serif;
+  letter-spacing: 1px;
+  font-size: 20px;
+}
+
+.EditTable-form__input_description{
+  height: 200px;
+}
+
+.EditTable-form__send{
+  padding: 10px;
+  letter-spacing: 1px;
+  font-size: 20px;
+}
